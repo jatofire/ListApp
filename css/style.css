@@ -1,3 +1,23 @@
 body {
 	background-color:#ccc;
 }
+
+.container-main {
+	margin-top: 10px;
+	width: 80%;
+	background-color: #f00;
+}
+
+.list-table-item {
+	margin-top: 10px;
+	background-color: #efc;
+}
+
+.list-table-item-heading {
+	font-size: 10em;
+}
+
+
+.addform {
+	
+}

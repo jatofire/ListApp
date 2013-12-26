@@ -9,14 +9,44 @@
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-sd
+<!-- Header section -->
+This is our header section
+
+
+
+<!-- Main content -->
+<div class="container container-main">
+	<div id="list-table"></div>
+	
+
+	<div id="add-form">
+		<form>
+			<div class="form-group">
+					<label for="list-item">Catagory:</label>
+					 <input type="text" class="form-control" id="list-item" placeholder="Default">
+			</div>
+			<div class="form-group">
+					<label for="list-item">Item:</label>
+					 <input type="text" class="form-control" id="list-item" placeholder="Enter item">
+			</div>
+			<button class="btn btn-large">Add</button>
+		</form>
+	</div>
+
+</div>
+
+
+
+
 <!-- Bottom nav bar -->
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-<div class="btn-group">
-<button class="btn btn-default" onClick="btnClick(0)">List</button>
-<button class="btn btn-default" onClick="btnClick(1)">Add</button>
-</div>
+	<div class="btn-group">
+		<button class="btn btn-default" onClick="btnClick(0)">List</button>
+		<button class="btn btn-default" onClick="btnClick(1)">Add</button>
+	</div>
 </nav>
+
+
 
 <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
